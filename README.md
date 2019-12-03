@@ -106,7 +106,9 @@ it will not comeup it need dependency required cni(container network dependency)
 kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 
 kubectl get nodes
+
 kubectl get pods --all-namespaces
+
 #get token
 
 kubeadm token create --print-join-command
