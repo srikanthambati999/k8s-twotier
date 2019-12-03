@@ -37,7 +37,7 @@ docker ps -a
 
 
 
-## ========common for master& slave stage====-==
+## =======common for master& slave stage
 
 sudo apt-get update -y
 sudo apt-get install -y apt-transport-https
@@ -71,13 +71,13 @@ systemctl enable docker.service
 
 
 apt-get install -y kubelet kubeadm kubectl kubernetes-cni  
-## ---------------         enable kubernetes related modules
+## enable kubernetes related modules
 
 systemctl daemon-reload
 systemctl start kubelet
 systemctl enable kubelet.service
 
-## ==================common for master and slaves end==============
+## =========common for master and slaves end
 
 
 
