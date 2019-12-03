@@ -12,7 +12,7 @@ import java.util.Optional;
 /**
  * Rest controller which is responsible for retrieving {@link User}s.
  *
- * @author Mithun
+ 
  */
 @RestController
 @RequestMapping(value = "/api/users")
